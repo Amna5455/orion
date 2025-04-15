@@ -10,7 +10,6 @@
 </head>
 
 <body class="bg-black text-white">
-  <!-- Hero Image -->
     <div class="">
         <section class="w-full h-screen bg-cover bg-center " style="background-image: url('/images/Background_Image.png')">
             <div class="absolute inset-0 bg-black opacity-40"></div>
@@ -25,17 +24,12 @@
         <section class="relative  md:h-[500px]">
             <img src="{{asset('images/Container.png')}}" alt="worker" class="w-full h-full object-cover">
         </section>
-        <!-- Full Width Image with Text Overlay -->
         <section class="relative  md:h-[500px]">
             <img src="{{asset('images/Main_Frame.png')}}" alt="worker" class="w-full h-full object-cover">
         </section>
-
-        <!-- Second Image with Person Holding Phone -->
         <section class="relative  md:h-[500px]">
             <img src="{{asset('images/Group_7.png')}}" alt="person" class="w-full h-full object-cover">
         </section>
-
-        <!-- Dark Map Footer Section -->
         <footer class="bg-black text-center py-12  md:h-[500px]">
             <img src="{{asset('images/Group_18.png')}}" alt="map" class="mx-auto">
             <p class="mt-4 text-sm text-gray-400">Orion</p>
